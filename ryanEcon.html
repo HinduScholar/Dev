@@ -4,14 +4,16 @@
   <title> Ryan's econ shtuff </title>
   <script type = "text/javascript" src = "econ.js"></script>
 <style>
-  <link rel ="stylesheet" href = "econ.css">
-
   table, th, td {
     border: 1px solid black;
 }
   </style>
 </head>
 <body>
+  <!-- this is a text box that we use to get the user's input -->
+  <input type="text" id="input-number">
+
+
   <!--This div is the graph-->
   <div class = "econGraph">
     <table class = "eGraph" id = "EGraph" >
@@ -38,20 +40,16 @@
       <td>X</td>
       <td>X</td>
     </tr>
-  </div>
-
-  <div class = "investBox">
-    <input type="text" value="1" class="iBox"><br>
-</div>
-<div id = "GB" class = "GoButton" onclick="goButton">
-    <table class = "goB">
     <tr>
-      <td id = "GBtd" class = "gobuttontablecolumn">
-      </td>
-    </tr>
-  </table>
+      <!--These give you the results-->
+      <td id = "com1"></td>
+      <td id = "com2"></td>
+      <td id = "com3"></td>
+      <td id = "com4"></td>
   </div>
 
   </table>
+  
+
 </body>
 </html>
